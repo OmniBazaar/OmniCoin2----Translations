@@ -1045,7 +1045,7 @@
     "PublicData.witnessRegisterFee": "Witness registration fee is 5000 XOM. Are you sure you want to proceed?",
     "PublicData.wantsToVote": "Vote for yourself",
     "PublicData.voteFee": "Fee for voting operation is 20 XOM",
-    "PublicData.customDownloadAddress": "Your custom OmniBazaar download address:",
+    "PublicData.customDownloadAddress": "Give your friends this custom OmniBazaar download address:",
     "PublicData.error": "Error",
     "PublicData.success": "Success",
     "Preferences.escrowFee": "Fee Percentage You Request as Escrow",
