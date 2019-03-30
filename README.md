@@ -22,6 +22,7 @@ In russian language should look like: <br />
 ```
 
 Languages:
+```
 en: English
 zh: Chinese
 hi: Hindi
@@ -40,3 +41,4 @@ tl: Filipino
 ms: Malaysian
 ro: Romanian
 uk: Ukrainian
+```
