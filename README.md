@@ -20,3 +20,23 @@ In russian language should look like: <br />
     ...
 }
 ```
+
+Languages:
+en: English
+zh: Chinese
+hi: Hindi
+es: Spanish
+fr: French
+ar: Arabic
+ru: Russian
+pt: Portuguese
+id: Indonesian
+tr: Turkish
+ko: Korean
+vi: Vietnamese
+it: Italian
+gu: Gujarati
+tl: Filipino
+ms: Malaysian
+ro: Romanian
+uk: Ukrainian
