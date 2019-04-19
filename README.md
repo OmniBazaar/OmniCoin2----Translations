@@ -24,7 +24,7 @@ In russian language should look like: <br />
 Languages:
 ```
 en: English
-zh: Chinese
+cn: Chinese
 hi: Hindi
 es: Spanish
 fr: French
@@ -33,7 +33,7 @@ ru: Russian
 pt: Portuguese
 id: Indonesian
 tr: Turkish
-ko: Korean
+kr: Korean
 vi: Vietnamese
 it: Italian
 gu: Gujarati

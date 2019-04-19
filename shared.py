@@ -75,8 +75,3 @@ def write_conversion(file_path, file):
     with codecs.open(file_path, 'w', 'utf-8') as targetFile:
         for line in file:
             targetFile.write(line)
-
-
-if __name__ == '__main__':
-    encoding = get_encoding(os.path.join(translations_root, 'es.json'))
-    convert_encoding(os.path.join(translations_root, 'es.json'), encoding, os.path.join(translations_root, 'es_utf8.json'))
