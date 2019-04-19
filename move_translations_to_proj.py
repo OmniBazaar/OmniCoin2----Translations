@@ -18,13 +18,15 @@ def walk():
             for root, dirs, files in os.walk(os.path.join(app_root, dir)):
                 for file in files:
                     file_name = file.split('.')[0]
-                    if file_name in locales:
+                    if file_name in locales and file_name in translations:
                         path = os.path.join(root, file)
-                        obj = read_obj(path)
+                        en_path = os.path.join(root, file.replace(file_name + ".json", "en.json"))
+                        #obj = read_obj(path)
+                        en_obj = read_obj(en_path)
                         for key in translations[file_name]:
-                            if key in obj:
-                                obj[key] = translations[file_name][key]
-                        save(obj, path)
+                            if key in en_obj:
+                                en_obj[key] = translations[file_name][key]
+                        save(en_obj, path)
 
     except Exception as e:
         print(str(e) + " " + path)
