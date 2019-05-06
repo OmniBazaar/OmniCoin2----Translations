@@ -28,7 +28,6 @@ def read_obj(path):
 def get_translations(locales):
     translations = {}
     for locale in locales:
-        print(locale)
         file_path = os.path.join(translations_root, '%s.json' % locale)
         exists = os.path.isfile(file_path)
         if exists:
